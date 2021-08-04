@@ -31,6 +31,8 @@ module.exports = {
       directory: './database/seeds'
     }
   },
-  ssl: true
+  ssl: {
+    rejectUnauthorized: false
+  }
 
 };
